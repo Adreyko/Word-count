@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+
+
+}
+
+body{
+  text-align: center;
+  margin-top: 200px;
+  background-color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+textarea{
+  padding: 10px;
+  height: 200px;
+  width: 40%;
+background-color: seagreen;
+outline: none;
+
+}
+button{
+ background-color:cadetblue;
+ padding: 10px 20px;
+ cursor: pointer;
+}
+h1{
+  color: cadetblue;
+}
+
+button:active{
+  background-color: aquamarine;
+
+}
+button:disabled{
+  cursor:not-allowed;
+}
+
+textarea:disabled{
+  cursor: not-allowed;
+}
